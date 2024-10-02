@@ -1,0 +1,19 @@
+{
+  "extends": "@meslzy/tsconfig",
+  "compilerOptions": {
+    "rootDirs": [
+      "source",
+      "scripts"
+    ],
+    "baseUrl": "source",
+    "paths": {
+      "~/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "scripts",
+    "source"
+  ]
+}

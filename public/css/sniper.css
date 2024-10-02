@@ -1,0 +1,41 @@
+div.fc-header-view {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fcfcfc;
+    padding: 0 10px;
+}
+
+#mosan-count {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+#mosan-fact {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+#mosan-divider {
+    width: 90%;
+    margin: 1rem auto;
+    height: 2px;
+    background-color: #fcfcfc;
+}
+
+#mosan-settings {
+    display: flex;
+    flex-direction: column;
+    padding: 0 .5rem;
+}
+
+#start-mosan.hidden {
+    display: none;
+}
+
+nav.ut-tab-bar button.hidden {
+    display: none;
+}
